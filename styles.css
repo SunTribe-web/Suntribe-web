@@ -1,13 +1,16 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Base */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
+    background-color: #fff;
 }
 
 .container {
@@ -17,7 +20,7 @@ body {
 }
 
 /* Header & Navigation */
-.header {
+header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 1rem 0;
@@ -27,7 +30,7 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-.navbar .container {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -196,7 +199,7 @@ body {
 }
 
 /* Footer */
-.footer {
+footer {
     background: #333;
     color: white;
     text-align: center;
